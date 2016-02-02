@@ -18,6 +18,8 @@ $ pip install thermometer
 
 basic usage
 -----------
+measured values are in degrees of Celsius
+
 ```
 >>> from thermometer.dallas_18s20 import w1
 >>> w = w1.dallas_18s20()
@@ -29,6 +31,8 @@ basic usage
 
 alias usage
 -----------
+measured values are in degrees of Celsius
+
 ```
 >>> from thermometer.dallas_18s20 import w1
 >>> w = w1.dallas_18s20()
