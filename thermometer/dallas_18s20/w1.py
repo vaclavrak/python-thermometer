@@ -38,7 +38,7 @@ class dallas_18s20(object):
         f.close()
         return lines
 
-    def read_temp(self):
+    def read_temp(self, temp_id):
         lines = self.read_temp_raw()
 
         while lines[0].strip()[-3:] != 'YES':
@@ -48,14 +48,14 @@ class dallas_18s20(object):
         if equals_pos != -1:
             temp_string = lines[1][equals_pos + 2:]
             temp_c = float(temp_string) / 1000.0
-            temp_id = lines[1][:equals_pos - 1].replace(" ", "")
             return (temp_id, temp_c)
 
     def get_temps(self):
         result = []
         for self.device_folder in glob.glob(self.base_dir + '28*'):
+            temp_id = self.device_folder.replace(self.base_dir + '28-', '')
             self.device_file = self.device_folder + '/w1_slave'
-            result.append(self.read_temp())
+            result.append(self.read_temp(temp_id))
         logger.info(result)
         return result
 

@@ -17,8 +17,29 @@ store data into graphite or another type of data storage.
 
 instalation
 ------------
-'''
+```
 pip install thermometer
 
-'''
+```
 
+basic usage
+-----------
+```
+>>> from thermometer.dallas_18s20 import w1
+>>> w = w1.dallas_18s20()
+>>> w.get_temps_aliases()
+[('870155007fff0c108a', 24.437), ('080255007fff0c10a5', 32.5)]
+
+```
+
+
+alias usage
+-----------
+```
+>>> from thermometer.dallas_18s20 import w1
+>>> w = w1.dallas_18s20()
+>>> w.alias('870155007fff0c108a', 'temp1')
+>>> w.get_temps_aliases()
+[('temp1', 24.437), ('080255007fff0c10a5', 32.5)]
+
+```

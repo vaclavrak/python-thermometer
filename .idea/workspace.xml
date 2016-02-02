@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0721ee43-1857-4935-9cc3-6dc54efb8adb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thermomether/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../thermomether/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thermomether/README.rst" afterPath="$PROJECT_DIR$/../thermomether/README.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thermomether/thermometer/dallas_18s20/w1.py" afterPath="$PROJECT_DIR$/../thermomether/thermometer/dallas_18s20/w1.py" />
     </list>
     <ignored path="dallas_18s20.iws" />
@@ -62,8 +63,8 @@
       <file leaf-file-name="w1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../thermomether/thermometer/dallas_18s20/w1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37216827">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.5845272">
+              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
               <folding>
                 <element signature="e#88#97#0" expanded="true" />
               </folding>
@@ -138,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/../thermomether/README.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="40" column="19" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -162,10 +163,10 @@
         <option value="$PROJECT_DIR$/dallas_18s20/w1.py" />
         <option value="$PROJECT_DIR$/../thermomether/dallas_18s20/w1.py" />
         <option value="$PROJECT_DIR$/../thermomether/README.md" />
-        <option value="$PROJECT_DIR$/../thermomether/README.rst" />
         <option value="$PROJECT_DIR$/../thermomether/MANIFEST.in" />
         <option value="$PROJECT_DIR$/../thermomether/setup.py" />
         <option value="$PROJECT_DIR$/../thermomether/thermometer/__init__.py" />
+        <option value="$PROJECT_DIR$/../thermomether/README.rst" />
         <option value="$PROJECT_DIR$/../thermomether/thermometer/dallas_18s20/w1.py" />
       </list>
     </option>
@@ -176,10 +177,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="116" />
+    <option name="x" value="1985" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1204" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -388,6 +389,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="thermomether" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
@@ -555,11 +574,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454400553182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed mod probe">
+      <created>1454401070981</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1454401070981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="116" width="1855" height="1084" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1204" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -593,7 +618,8 @@
     <MESSAGE value="updated readme" />
     <MESSAGE value="fixed  folder structure" />
     <MESSAGE value="fixed  init files" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed  init files" />
+    <MESSAGE value="changed mod probe" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed mod probe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -620,14 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../thermomether/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -667,10 +685,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../thermomether/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="19" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../thermomether/thermometer/dallas_18s20/w1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37216827">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.5845272">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="e#88#97#0" expanded="true" />
           </folding>
