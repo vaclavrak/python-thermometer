@@ -27,7 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0721ee43-1857-4935-9cc3-6dc54efb8adb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thermomether/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../thermomether/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thermomether/README.md" afterPath="$PROJECT_DIR$/../thermomether/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thermomether/README.rst" afterPath="$PROJECT_DIR$/../thermomether/README.rst" />
     </list>
     <ignored path="dallas_18s20.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,14 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../thermomether/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18415178">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state vertical-scroll-proportion="-4.354839">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -124,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../thermomether/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.27508092">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,9 +152,9 @@
         <option value="$PROJECT_DIR$/dallas_18s20/w1.py" />
         <option value="$PROJECT_DIR$/../thermomether/MANIFEST.in" />
         <option value="$PROJECT_DIR$/../thermomether/dallas_18s20/w1.py" />
-        <option value="$PROJECT_DIR$/../thermomether/README.rst" />
         <option value="$PROJECT_DIR$/../thermomether/setup.py" />
         <option value="$PROJECT_DIR$/../thermomether/README.md" />
+        <option value="$PROJECT_DIR$/../thermomether/README.rst" />
       </list>
     </option>
   </component>
@@ -467,7 +467,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454398626365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated readme">
+      <created>1454398725559</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1454398725559</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -552,14 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../thermomether/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../thermomether/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -573,8 +571,16 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18415178">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state vertical-scroll-proportion="-4.354839">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thermomether/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27508092">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
