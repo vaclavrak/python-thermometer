@@ -21,9 +21,10 @@ class dallas_18s20(object):
     device_folder = ""
     aliases = {}
 
-    def __init__(self, base_dir="/sys/bus/w1/devices/"):
-        os.system('modprobe w1-gpio')
-        os.system('modprobe w1-therm')
+    def __init__(self, base_dir="/sys/bus/w1/devices/", modprobe=True):
+        if modprobe:
+            os.system('/sbin/modprobe w1-gpio')
+            os.system('/sbin/modprobe w1-therm')
         self.device_file = None
         self.base_dir = base_dir
         self.aliases = {}
