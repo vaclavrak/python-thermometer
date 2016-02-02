@@ -11,8 +11,7 @@ PULL REQUEST FOR ANOTHER DEVICES ARE WELCOME
 'thermometer.d18s20.w1' write data from thermometer to logger as list of values 
 
 ## instalation 
-'''
+```
 pip install thermometer 
 
-'''
-
+```
