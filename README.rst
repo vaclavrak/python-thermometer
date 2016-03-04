@@ -47,3 +47,15 @@ measured values are in degrees of Celsius
 [('temp1', 24.437), ('080255007fff0c10a5', 32.5)]
 
 ```
+
+Note about Dallas 18S20 and 18B20
+---------------------------------
+
+during development I found out there are two Dallas thermometers 18S20 and 18B20
+ - *DS18S20* High-Precision 1-Wire Digital Thermometer, 10.000010EF0000
+ - *DS18B20* Programmable Resolution 1-Wire Digital Thermometer, 28.000028D70000
+
+
+so far name was badly chosen, for 18s20 it was wrong, regarding historical instalations I decide to let it be.
+Interesting resource about 1Wire devices: http://owfs.sourceforge.net/adapters/patch.html
+
