@@ -53,7 +53,7 @@ class dallas_18s20(object):
     def get_temps(self):
         result = []
         for prefix in ["28", "10"]:
-            for self.device_folder in glob.glob("{devdir}{prefix}*".format(devdir = self.base_dir, pefix = prefix)):
+            for self.device_folder in glob.glob("{devdir}{prefix}*".format(devdir = self.base_dir, prefix = prefix)):
                 temp_id = self.device_folder.replace("{devdir}{prefix}-".format(devdir=self.base_dir, prefix = prefix), '')
                 self.device_file = self.device_folder + '/w1_slave'
                 result.append(self.read_temp(temp_id))
